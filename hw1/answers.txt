@@ -1,0 +1,21 @@
+1) With vertical synchronization enabled:
+
+1x1: 302 frames in  5.010 seconds = 60.279 FPS
+
+300x300: 302 frames in  5.010 seconds = 60.279 FPS
+
+glutFullScreen(): 302 frames in  5.000 seconds = 60.400 FPS
+
+With vertical synchronization disabled (vblank_mode=0):
+
+1x1: 47613 frames in  5.000 seconds = 9522.600 FPS
+
+300x300: 44764 frames in  5.000 seconds = 8952.800 FPS
+
+glutFullScreen(): 2617 frames in  5.001 seconds = 523.295 FPS
+
+
+2) This usually occurs because vertical synchronization is enabled.  When vertical synchronization is enabled the FPS (frames per second) are limited to the refresh rate of the screen.  Most screens run at 60Hz.  One can set the environment variable vblank_mode=0 to disable vertical synchronization.
+
+
+3) 30min.
