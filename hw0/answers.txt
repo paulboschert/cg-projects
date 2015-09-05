@@ -1,0 +1,13 @@
+1) Paul Boschert
+
+2) MS eventually, Be Boulder Anywhere right now, Computer Science/Mathematics
+
+3) Linux 3.19.0-26-generic x86_64
+
+Intel Corporation 4th Gen Core Processor Integrated Graphics Controller (rev 06)
+
+4) I've taken undergraduate courses in Computer Graphics at Mines circa 2005-2006.  Since I've been working I've used Qt, GTK+, vispy, pyqtgraph, matplotlib, C++/CLR Windows Forms
+
+5) Scientific Visualization, work, curiosity
+
+6) Visualization of OCT, or OTDR, or FBG interrogation
