@@ -8,6 +8,8 @@ Or:
  $ cmake ..
 
 
+I used cmake because I thought it would be the most cross-platform.
+
 
 USAGE
 =====
