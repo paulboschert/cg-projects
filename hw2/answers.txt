@@ -1,0 +1,5 @@
+4) The fact that you can get wildly different line traces by changing one of the parameters to the Lorenz equations is very interesting.  The system can go from being chaotic to non-chaotic, or can be a fractal.  Another interesting fact I learned was that the Lorenz Attractor is a model than is used to describe atmospheric fluid circulation.
+
+5) 3 hours, but most of it was playing around with different parameters and interesting things to do
+
+
