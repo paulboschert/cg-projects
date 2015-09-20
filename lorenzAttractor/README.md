@@ -1,11 +1,11 @@
 # Build
-1. `$ "cmake ."`
+1. $ `cmake .`
 
 Or:
 
-1. `$ mkdir build`
-1. `$ cd $_`
-1. `$ cmake ..`
+1. $ `mkdir build`
+1. $ `cd build`
+1. $ `cmake ..`
 
 # Usage
 <pre>
