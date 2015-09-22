@@ -14,6 +14,3 @@ r/R        : change the rho parameter to the lorenz equation
 q/esc      : close and return 0
 </pre>
 
-## Notes
-cmake was used because it usually makes cross-platform compilations easier.
-
