@@ -9,7 +9,11 @@
 // -------------------------------------------------------------------------------------------------
 
 #define GL_GLEXT_PROTOTYPES
+#ifdef __APPLE_
+#include <GLUT/glut.h>
+#else
 #include <GL/glut.h>
+#endif
 
 #include <array>
 #include <iostream>
