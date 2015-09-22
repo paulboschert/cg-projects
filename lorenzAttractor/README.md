@@ -1,13 +1,11 @@
-# Build
-1. $ `cmake .`
+## Build
+1. $ `cmake`
+1. $ `make`
 
-Or:
+## Run
+1. $ `./hw2`
 
-1. $ `mkdir build`
-1. $ `cd build`
-1. $ `cmake ..`
-
-# Usage
+## Usage
 <pre>
 +/-        : zoom in/out
 left/right : change the view angle about the y axis
@@ -17,6 +15,6 @@ r/R        : change the rho parameter to the lorenz equation
 q/esc      : close and return 0
 </pre>
 
-# Notes
+## Notes
 cmake was used because it usually makes cross-platform compilations easier.
 
