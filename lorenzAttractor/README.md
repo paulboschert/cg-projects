@@ -1,5 +1,4 @@
 ## Build
-1. $ `cmake`
 1. $ `make`
 
 ## Run
