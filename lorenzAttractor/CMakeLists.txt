@@ -4,7 +4,7 @@ SET(PROJECTNAME hw2)
 
 project(${PROJECTNAME})
 
-add_executable(${PROJECTNAME} hw2.cpp)
+add_executable(${PROJECTNAME} lorenzAttractor.cpp)
 
 # standard compile flags
 add_definitions(-pedantic -O2 -Wall -std=c++11)

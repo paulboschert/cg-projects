@@ -17,7 +17,7 @@ else
 endif
 
 #  Compile and link
-hw2:hw2.cpp
+hw2:lorenzAttractor.cpp
 	$(CXX) $(CXXFLAGS) -o $@ $^ $(LIBS)
 
 #  Clean
