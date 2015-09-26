@@ -1,6 +1,6 @@
 // -------------------------------------------------------------------------------------------------
 /*!
- * File:            hw2.cpp
+ * File:            lorenzAttractor.cpp
  *
  * Project:         CSCI-5229 - Computer Graphics
  * Component Name:  Homework 2 Lorenz Attractor
