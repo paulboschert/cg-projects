@@ -23,11 +23,22 @@
 
 using namespace std;
 
-// viewing angles, dimension and aspect ratio
+// viewing angles, dimension, and aspect ratio
 double theta = 0;
 double phi = 0;
 double dimension = 50;
 double aspectRatio = 0;
+
+/**
+ * Check for GL errors and display a message
+ *
+ * @return None
+ */
+void ErrCheck(const char* where) {
+  int err = glGetError();
+  if(err != 0)
+    cerr << "ERROR: " << gluErrorString(err) << " [" << where << "]" << endl;
+}
 
 /**
  * Convenience routine to output raster text
@@ -47,6 +58,8 @@ void writeToScreen(const char* format , ...) {
   while(*ch) {
     glutBitmapCharacter(GLUT_BITMAP_HELVETICA_18, *ch++);
   }
+
+  ErrCheck(__func__);
 }
 
 /**
@@ -77,6 +90,8 @@ void drawSphere(const double x, const double y, const double z) {
   gluSphere(quad, r, 32, 32);
 
   glPopMatrix(); // undo transformations
+
+  ErrCheck(__func__);
 }
 
 /**
@@ -105,6 +120,8 @@ void drawAxes() {
   writeToScreen("Y");
   glRasterPos3d(0.0, 0.0, len);
   writeToScreen("Z");
+
+  ErrCheck(__func__);
 }
 
 /**
@@ -125,6 +142,8 @@ void displayCallback() {
   // flush and swap buffer
   glFlush();
   glutSwapBuffers();
+
+  ErrCheck(__func__);
 }
 
 /**
@@ -142,6 +161,8 @@ void project() {
 
   glMatrixMode(GL_MODELVIEW);
   glLoadIdentity();
+
+  ErrCheck(__func__);
 }
 
 /**
@@ -161,6 +182,8 @@ void reshapeCallback(const int width, const int height) {
 
   glViewport(0, 0, width, height); // set the viewport as the entire window
   project(); // update the projection
+
+  ErrCheck(__func__);
 }
 
 /**
@@ -193,6 +216,8 @@ void specialCallback(const int k, const int x, const int y) {
   project(); // update the projection
 
   glutPostRedisplay();
+
+  ErrCheck(__func__);
 }
 
 /**
@@ -219,6 +244,8 @@ void keyCallback(const unsigned char c, const int x, const int y) {
   project(); // update the projection
 
   glutPostRedisplay();
+
+  ErrCheck(__func__);
 }
 
 int main(int argc, char* argv[], char* envp[]) {
@@ -240,6 +267,8 @@ int main(int argc, char* argv[], char* envp[]) {
   glEnable(GL_DEPTH_TEST); // enable z-BUFFer depth test
 
   glutMainLoop(); // pass control to GLUT
+
+  ErrCheck(__func__);
 
   return 0;
 }
