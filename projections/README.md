@@ -1,12 +1,12 @@
 #### Paul Boschert
 #### CSCI-5229 - Computer Graphics
-#### Homework 3 Objects In 3D
+#### Homework 4 Projections
 
 ## Build
 1. $ `make`
 
 ## Run
-1. $ `./hw3`
+1. $ `./hw4`
 
 ## Usage
 <pre>
