@@ -1,4 +1,4 @@
-Assignment 3: Objects in 3D
+# Assignment 3: Objects in 3D
 
 Create an OpenGL program this allows a scene to be viewed in 3D . The program
 should allow the scene to be viewed from multiple eye positions directed by

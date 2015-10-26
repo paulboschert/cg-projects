@@ -1,4 +1,4 @@
-Assignment 1: Gears
+# Assignment 1: Gears
 
 Download the gears program and run it on your system. This is to verify that you have a working
 OpenGL environment and get your feet wet with OpenGL.

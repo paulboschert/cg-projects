@@ -1,4 +1,4 @@
-Assignment 4: Projections
+# Assignment 4: Projections
 
 Create an OpenGL program this allows a scene to be viewed in both orthogonal
 and perspective projections. The program should allow the scene to be viewed

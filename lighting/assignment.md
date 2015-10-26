@@ -1,4 +1,4 @@
-Assignment 5: Lighting
+# Assignment 5: Lighting
 
 Write an OpenGL program that incorporates lighting to create a a scene
 consisting of solid objects that can be viewed in three dimensions under user

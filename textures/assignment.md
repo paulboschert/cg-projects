@@ -1,4 +1,4 @@
-Assignment 6: Lighting and Textures
+# Assignment 6: Lighting and Textures
 
 Write an OpenGL program that incorporates both lighting and textures to create
 a a scene consisting of textured solid objects that can be viewed in three

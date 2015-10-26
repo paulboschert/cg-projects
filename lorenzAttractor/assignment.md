@@ -1,4 +1,4 @@
-Assignment 2: Lorenz Atttractor
+# Assignment 2: Lorenz Atttractor
 Write a three dimensional OpenGL visualization of the Lorenz Attractor. The
 lorenz.c  program provides an integrator that may be used to generate a
 sequence of points to use in the visualization.
